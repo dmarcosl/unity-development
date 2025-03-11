@@ -1,0 +1,43 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#0080B7" data-resizable-sidebar="false"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="built-on" content="2025-03-12T00:27:51.543412"><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8YKCVR45PQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8YKCVR45PQ');
+</script><title>Variables | Unity Development</title><script type="application/json" id="virtual-toc-data">[{"id":"vector3","level":0,"title":"Vector3","anchor":"#vector3"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b575/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Variables | Unity Development"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Unity Development Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/variables.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Variables | Unity Development"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/variables.html#webpage",
+    "url": "writerside-documentation/variables.html",
+    "name": "Variables | Unity Development",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "Unity Development Help"
+}</script><!-- End Schema.org --></head><body data-id="Variables" data-main-title="Variables" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs="Programming"><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Unity Development  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Variables" id="Variables.md">Variables</h1><p id="z9xlxfx_3">A variable is nothing but a name given to a value that our program can manipulate.</p><p id="z9xlxfx_4">In C#, the declaration of a variable is</p><div class="code-block" data-lang="csharp">
+// &lt;data type&gt; &lt;variable name&gt; = &lt;value&gt;;  
+int height = 25;  
+float width = 22.5f;  
+string text = &quot;hello&quot;;  
+bool isSelected = true;
+</div><p id="z9xlxfx_6">In Javascript, the declaration of a variable is</p><div class="code-block" data-lang="javascript">
+// var &lt;variable name&gt; = &lt;value&gt;;  
+var height = 25;  
+var width = 22.5;  
+var text = &quot;hello&quot;;  
+var isSelected = true;
+</div><p id="z9xlxfx_8">If a valor is not given, the null value is assigned by default.</p><p id="z9xlxfx_9">In Javascript, a variable can change its data type, in C# cannot. <br> In C#, at operate with variable of different data types, the more affordable is assigned to the result:</p><ul class="list _bullet" id="z9xlxfx_10"><li class="list__item" id="z9xlxfx_13"><p>int + float = float</p></li><li class="list__item" id="z9xlxfx_14"><p>int + string = string</p></li><li class="list__item" id="z9xlxfx_15"><p>bool + string = string</p></li></ul><section class="chapter"><h2 id="vector3" data-toc="vector3">Vector3</h2><p id="z9xlxfx_16">Vector3 is a representation of 3D vectors and points.</p><p id="z9xlxfx_17">The structure is used throughout Unity to pass 3D positions and directions around, it also contains function for doing common vector operations.</p><p id="z9xlxfx_18">The syntax is</p><div class="code-block" data-lang="csharp">
+Vector3(X, Y, Z)
+</div><p id="z9xlxfx_20">We can access to the axis of the Vector3 by calling them:</p><div class="code-block" data-lang="csharp">
+Vector3 vector = new Vector3(1.0f, 1.0f, 1.0f);  
+float x = vector.x;  
+float y = vector.y;  
+float z = vector.z;
+</div></section><div class="last-modified">Last modified: 11 March 2025</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="slider.html" class="navigation-links__prev">Slider</a><a href="methods-functions.html" class="navigation-links__next">Methods / Functions</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b575/app.js"></script></body></html>

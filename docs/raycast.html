@@ -1,0 +1,31 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#0080B7" data-resizable-sidebar="false"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="built-on" content="2025-03-12T00:27:51.55239"><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8YKCVR45PQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8YKCVR45PQ');
+</script><title>Raycast | Unity Development</title><script type="application/json" id="virtual-toc-data">[]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b575/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Raycast | Unity Development"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Unity Development Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation/raycast.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Raycast | Unity Development"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation/raycast.html#webpage",
+    "url": "writerside-documentation/raycast.html",
+    "name": "Raycast | Unity Development",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "Unity Development Help"
+}</script><!-- End Schema.org --></head><body data-id="Raycast" data-main-title="Raycast" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs="Physics"><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Unity Development  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Raycast" id="Raycast.md">Raycast</h1><p id="-604cmd_3">Raycasting is the process of shooting an invisible ray from a point, in a specified direction to detect whether any colliders lay in the path of the ray.</p><p id="-604cmd_4">It projects a line until it hits something, then it returns that point.</p><p id="-604cmd_5">This is useful with side scrolling shooters, FPS, third person shooters, etc. Being able to trace where a bullet or laser is going to travel from the start to finish means that we know exactly how it should behave.</p><p id="-604cmd_6">Raycasting in Unity3D is broken down into two distinct parts, 2D and 3D. Both of which are physics objects.</p><div class="code-block" data-lang="csharp">
+Public static bool Raycast(
+  Vector3 origin,
+  Vector3 direction,
+  float maxDistance  
+  Int layerMask,
+  QueryTriggerInteraction queryTriggerInteraction)
+</div><ul class="list _bullet" id="-604cmd_8"><li class="list__item" id="-604cmd_10"><p><span class="control" id="-604cmd_15">origin</span>, starting point of the ray in world coordinates</p></li><li class="list__item" id="-604cmd_11"><p><span class="control" id="-604cmd_16">direction</span>, direction of the ray</p></li><li class="list__item" id="-604cmd_12"><p><span class="control" id="-604cmd_17">maxDistance</span>, max distance the ray should check for collisions, default infinity</p></li><li class="list__item" id="-604cmd_13"><p><span class="control" id="-604cmd_18">layerMask</span>, a layer mask that is used to selectively ignore Colliders in the selected layers when casting a ray. The value assignment is int layerMask = 1 &lt;&lt; 12, where 12 is the number of the layer selected to collide</p></li><li class="list__item" id="-604cmd_14"><p><span class="control" id="-604cmd_19">queryTriggerInteraction</span>, specifies whether this query should hit triggers, default global</p></li></ul><p id="-604cmd_9">Casts a ray, from point origin, in direction direction, of length maxDistance, against all colliders in the scene.</p><div class="last-modified">Last modified: 11 March 2025</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="colliders.html" class="navigation-links__prev">Colliders</a><a href="audio-introduction.html" class="navigation-links__next">Audio Introduction</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b575/app.js"></script></body></html>

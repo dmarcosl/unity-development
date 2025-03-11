@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="ud"
+                 name="Unity Development"
+                  start-page="Summary.md">
+
+    <toc-element topic="Summary.md"/>
+    <toc-element toc-title="Editor Interface">
+        <toc-element topic="Layouts.md"/>
+        <toc-element topic="Asset-Store.md"/>
+        <toc-element topic="Console.md"/>
+        <toc-element topic="Hierarchy.md"/>
+        <toc-element topic="Inspector.md"/>
+        <toc-element topic="Project.md"/>
+        <toc-element topic="Scene.md"/>
+        <toc-element topic="Toolbar.md"/>
+    </toc-element>
+    <toc-element toc-title="Game Art Principles">
+        <toc-element topic="Non-Player-Characters.md"/>
+        <toc-element topic="Look-and-feel-Imagery.md"/>
+        <toc-element topic="Color-Palette.md"/>
+    </toc-element>
+    <toc-element toc-title="Game Design Principles">
+        <toc-element topic="Genre-Video-Game-Types.md"/>
+        <toc-element topic="Game-Mechanics.md"/>
+        <toc-element topic="Controls.md"/>
+    </toc-element>
+    <toc-element toc-title="Asset Management">
+        <toc-element topic="Audio-Clips.md"/>
+        <toc-element topic="Default-GameObjects.md"/>
+        <toc-element topic="Models.md"/>
+        <toc-element topic="Prefabs.md"/>
+        <toc-element topic="Scene-File.md"/>
+        <toc-element topic="Sprite-Editor.md"/>
+    </toc-element>
+    <toc-element toc-title="Project Management">
+        <toc-element topic="Layers.md"/>
+        <toc-element topic="Tags.md"/>
+        <toc-element topic="Transform.md"/>
+        <toc-element topic="Components.md"/>
+    </toc-element>
+    <toc-element toc-title="User Interface">
+        <toc-element topic="Canvas.md"/>
+        <toc-element topic="Image.md"/>
+        <toc-element topic="Rect-Tool.md"/>
+        <toc-element topic="Button.md"/>
+        <toc-element topic="Slider.md"/>
+    </toc-element>
+    <toc-element toc-title="Programming">
+        <toc-element topic="Variables.md"/>
+        <toc-element topic="Methods-Functions.md"/>
+        <toc-element topic="Unity-Interface.md"/>
+        <toc-element topic="GameObject.md"/>
+        <toc-element topic="DeltaTime.md"/>
+        <toc-element topic="MonoBehaviour-API.md"/>
+        <toc-element topic="Camera-API.md"/>
+        <toc-element topic="Quaternion.md"/>
+    </toc-element>
+    <toc-element toc-title="Materials and Effects">
+        <toc-element topic="Standard-Shaders.md"/>
+        <toc-element topic="Image-Effects-Post-Processing.md"/>
+        <toc-element topic="Emitters.md"/>
+    </toc-element>
+    <toc-element toc-title="Lighting">
+        <toc-element topic="Light.md"/>
+        <toc-element topic="Light-Types.md"/>
+        <toc-element topic="Shadows.md"/>
+        <toc-element topic="Baking.md"/>
+        <toc-element topic="Global-Illumination.md"/>
+    </toc-element>
+    <toc-element toc-title="Physics">
+        <toc-element topic="Rigidbody.md"/>
+        <toc-element topic="Colliders.md"/>
+        <toc-element topic="Raycast.md"/>
+    </toc-element>
+    <toc-element toc-title="Audio">
+        <toc-element topic="Audio-Introduction.md"/>
+        <toc-element topic="Audio-Source.md"/>
+        <toc-element topic="Audio-Reverb-Zone.md"/>
+        <toc-element topic="Audio-Mixer.md"/>
+    </toc-element>
+    <toc-element toc-title="Animation">
+        <toc-element topic="Animation-Introduction.md"/>
+        <toc-element topic="Animation-Controller-Asset.md"/>
+        <toc-element topic="States.md"/>
+        <toc-element topic="Transitions.md"/>
+    </toc-element>
+    <toc-element toc-title="Navigation and Pathfinding">
+        <toc-element topic="Navigation.md"/>
+        <toc-element topic="Bake-Settings.md"/>
+        <toc-element topic="Obstacle-Avoidance.md"/>
+    </toc-element>
+    <toc-element toc-title="Unity Services">
+        <toc-element topic="Ads.md"/>
+        <toc-element topic="Analytics.md"/>
+        <toc-element topic="Collaborate-Unity-Teams.md"/>
+        <toc-element topic="Cloud-Build.md"/>
+    </toc-element>
+    <toc-element toc-title="Industry Awareness">
+        <toc-element topic="Production-Cycles-Common-Job-Titles.md"/>
+        <toc-element topic="Hardware-Products.md"/>
+    </toc-element>
+    <toc-element toc-title="Employment Prep">
+        <toc-element topic="Providing-Critique.md"/>
+        <toc-element topic="Company-Confidentiality.md"/>
+    </toc-element>
+</instance-profile>

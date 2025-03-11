@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="5066992f">
+        <description>Created after removal of "About Unity Developer" from Unity Developer</description>
+        <accepts>starter-topic.html</accepts>
+    </rule>
+    <rule id="32716cdb">
+        <description>Created after removal of "Editor Interface" from Unity Developer</description>
+        <accepts>Editor-Interface.html</accepts>
+    </rule>
+</rules>
